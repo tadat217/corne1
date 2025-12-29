@@ -22,10 +22,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB                     &kp Q               &kp W           &kp E               &kp R             &kp T           &kp Y        &kp U              &kp I                &kp O            &kp P                   &kp MINUS
-&kp GRAVE                   &mt LEFT_CONTROL A  &mt LEFT_ALT S  &mt LEFT_COMMAND D  &mt LEFT_SHIFT F  &kp G           &kp H        &mt RIGHT_SHIFT J  &mt RIGHT_COMMAND K  &mt RIGHT_ALT L  &mt RIGHT_CONTROL SEMI  &kp SINGLE_QUOTE
-&mt GLOBE NON_US_BACKSLASH  &lt 7 Z             &lt 5 X         &kp C               &kp V             &kp B           &kp N        &kp M              &kp COMMA            &lt 6 PERIOD     &lt 7 SLASH             &mt GLOBE EQUAL
-                                                                &mo 8               &lt 1 BACKSPACE   &lt 3 ESCAPE    &lt 4 ENTER  &lt 2 SPACE        &mo 8
+&kp TAB                     &kp Q               &kp W           &kp E               &kp R             &kp T          &kp Y      &kp U              &kp I                &kp O            &kp P                   &kp MINUS
+&kp GRAVE                   &mt LEFT_CONTROL A  &mt LEFT_ALT S  &mt LEFT_COMMAND D  &mt LEFT_SHIFT F  &kp G          &kp H      &mt RIGHT_SHIFT J  &mt RIGHT_COMMAND K  &mt RIGHT_ALT L  &mt RIGHT_CONTROL SEMI  &kp SINGLE_QUOTE
+&mt GLOBE NON_US_BACKSLASH  &lt 7 Z             &lt 5 X         &kp C               &kp V             &kp B          &kp N      &kp M              &kp COMMA            &lt 6 PERIOD     &lt 7 SLASH             &mt GLOBE EQUAL
+                                                                &mo 8               &lt 1 SPACE       &lt 3 ENTER    &lt 4 ESC  &lt 2 BACKSPACE    &mo 8
             >;
         };
 
