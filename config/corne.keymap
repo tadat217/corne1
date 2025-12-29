@@ -13,7 +13,7 @@
         compatible = "zmk,keymap";
 
         base {
-            display-name = "Default Layer";
+            display-name = "Default";
 
             // -----------------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BSPC |
@@ -30,7 +30,7 @@
         };
 
         navigation {
-            display-name = "Lower Layer";
+            display-name = "Navigation";
 
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BSPC |
@@ -47,7 +47,7 @@
         };
 
         number {
-            display-name = "Raise Layer";
+            display-name = "Number";
 
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BSPC |
@@ -70,6 +70,8 @@
 &kp GLOBE  &trans            &trans        &trans            &trans          &trans    &kp PERCENT       &kp LEFT_BRACE        &kp ASTERISK  &kp RIGHT_BRACE        &kp CARET          &kp EXCLAMATION
                                            &trans            &trans          &trans    &kp AT_SIGN       &kp SPACE             &trans
             >;
+
+            label = "Symbols";
         };
 
         funtions {
@@ -79,6 +81,8 @@
 &trans  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5     &trans  &trans           &trans             &trans         &trans             &kp GLOBE
                           &trans   &trans   &trans     &trans  &trans           &trans
             >;
+
+            label = "Functions";
         };
 
         media {
@@ -88,6 +92,8 @@
 &kp K_MUTE       &trans                &trans            &trans            &trans      &trans         &trans  &trans  &trans  &trans  &trans  &trans
                                                          &trans            &trans      &kp C_PAUSE    &trans  &trans  &trans
             >;
+
+            label = "Media";
         };
 
         buttons {
@@ -97,6 +103,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
+
+            label = "Buttons";
         };
 
         mouse {
@@ -106,6 +114,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
+
+            label = "Mouse";
         };
 
         bluetooth {
@@ -115,6 +125,8 @@
 &trans  &trans        &trans        &trans          &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
                                     &trans          &trans        &trans          &trans  &trans  &trans
             >;
+
+            label = "Bluetooth";
         };
     };
 };
