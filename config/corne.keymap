@@ -109,9 +109,9 @@
 
         gaming {
             bindings = <
-&kp ESC    &kp Q  &kp W  &kp E   &kp R      &kp T      &kp Y   &kp U      &kp I   &kp O   &kp P   &trans
-&kp LSHFT  &kp A  &kp S  &kp D   &kp F      &kp G      &kp H   &kp J      &kp K   &kp L   &trans  &trans
-&kp LCTRL  &kp Z  &kp X  &kp C   &kp V      &kp B      &kp N   &kp M      &trans  &trans  &trans  &trans
+&kp ESC    &kp Q  &kp W  &kp E   &kp R      &kp T      &kp Y   &kp U      &kp I   &kp O           &kp P         &trans
+&kp LSHFT  &kp A  &kp S  &kp D   &kp F      &kp G      &kp H   &kp J      &kp K   &kp L           &kp UP_ARROW  &trans
+&kp LCTRL  &kp Z  &kp X  &kp C   &kp V      &kp B      &kp N   &kp M      &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT
                          &trans  &kp SPACE  &kp RET    &trans  &kp SPACE  &to 0
             >;
 
