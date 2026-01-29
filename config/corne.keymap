@@ -40,10 +40,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp LG(TAB)                  &kp LG(Q)               &kp LG(W)           &kp LG(E)               &kp LG(R)             &kp LG(T)    &trans  &kp HOME            &kp PAGE_UP   &kp PAGE_DOWN  &kp END        &trans
-&mt LC(LS(GRAVE)) LG(GRAVE)  &mt LEFT_CONTROL LG(A)  &mt LEFT_ALT LG(S)  &mt LEFT_COMMAND LG(D)  &mt LEFT_SHIFT LG(F)  &kp LG(G)    &trans  &kp LEFT            &kp DOWN      &kp UP_ARROW   &kp RIGHT      &trans
-&mt GLOBE LG(TILDE)          &kp LG(Z)               &kp LG(X)           &kp LG(C)               &kp LG(V)             &kp LG(B)    &trans  &kp LA(LEFT_ARROW)  &kp LG(LEFT)  &kp LG(RIGHT)  &kp RA(RIGHT)  &trans
-                                                                         &trans                  &trans                &trans       &trans  &trans              &trans
+&trans     &trans            &trans        &trans            &trans          &trans    &trans  &kp HOME            &kp PAGE_UP   &kp PAGE_DOWN  &kp END        &trans
+&trans     &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &trans    &trans  &kp LEFT            &kp DOWN      &kp UP_ARROW   &kp RIGHT      &trans
+&kp GLOBE  &trans            &trans        &trans            &trans          &trans    &trans  &kp LA(LEFT_ARROW)  &kp LG(LEFT)  &kp LG(RIGHT)  &kp RA(RIGHT)  &trans
+                                           &trans            &trans          &trans    &trans  &trans              &trans
             >;
         };
 
