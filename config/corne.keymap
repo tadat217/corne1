@@ -19,6 +19,26 @@
         };
     };
 
+    behaviors {
+        lt_bspc_del: lt_bspc_del {
+            compatible = "zmk,behavior-mod-morph";
+            label = "LT_BSPC_DEL";
+            bindings = <&lt 2 BACKSPACE>, <&kp DELETE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        bspc_del: bspc_del {
+            compatible = "zmk,behavior-mod-morph";
+            label = "BSPC_DEL";
+            bindings = <&kp BACKSPACE>, <&kp DELETE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -35,7 +55,7 @@
 &kp TAB              &kp Q               &kp W           &kp E               &kp R             &kp T          &kp Y      &kp U              &kp I                &kp O            &kp P                   &kp MINUS
 &kp GRAVE            &mt LEFT_CONTROL A  &mt LEFT_ALT S  &mt LEFT_COMMAND D  &mt LEFT_SHIFT F  &kp G          &kp H      &mt RIGHT_SHIFT J  &mt RIGHT_COMMAND K  &mt RIGHT_ALT L  &mt RIGHT_CONTROL SEMI  &kp SINGLE_QUOTE
 &mt GLOBE BACKSLASH  &kp Z               &lt 5 X         &kp C               &kp V             &kp B          &kp N      &kp M              &kp COMMA            &lt 6 PERIOD     &kp SLASH               &mt GLOBE EQUAL
-                                                         &mo 7               &lt 1 SPACE       &lt 3 ENTER    &lt 4 ESC  &lt 2 BACKSPACE    &to 8
+                                                         &mo 7               &lt 1 SPACE       &lt 3 ENTER    &lt 4 ESC  &lt_bspc_del       &to 8
             >;
         };
 
@@ -69,7 +89,7 @@
 &kp TAB    &kp NUMBER_1          &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4           &kp NUMBER_5    &trans  &trans           &trans             &trans         &trans             &trans
 &kp ENTER  &kp NUMBER_6          &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9           &kp NUMBER_0    &trans  &kp RIGHT_SHIFT  &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &trans
 &kp EQUAL  &kp LEFT_PARENTHESIS  &kp PLUS      &kp MINUS     &kp RIGHT_PARENTHESIS  &kp DOT         &trans  &trans           &trans             &trans         &trans             &kp GLOBE
-                                               &trans        &kp BACKSPACE          &kp SPACE       &trans  &trans           &trans
+                                               &trans        &bspc_del              &trans          &trans  &trans           &trans
             >;
         };
 
