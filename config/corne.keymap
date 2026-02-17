@@ -77,7 +77,7 @@
             bindings = <
 &trans     &trans            &trans        &trans            &trans          &trans    &kp AMPERSAND     &kp LESS_THAN         &kp EQUAL     &kp GREATER_THAN       &kp PIPE           &kp HASH
 &trans     &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &trans    &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp COLON     &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp PERCENT
-&kp GLOBE  &trans            &trans        &trans            &trans          &trans    &kp PERCENT       &kp LEFT_BRACE        &kp ASTERISK  &kp RIGHT_BRACE        &kp CARET          &kp EXCLAMATION
+&kp GLOBE  &trans            &trans        &trans            &trans          &trans    &kp DOLLAR        &kp LEFT_BRACE        &kp ASTERISK  &kp RIGHT_BRACE        &kp CARET          &kp EXCLAMATION
                                            &trans            &trans          &trans    &kp AT_SIGN       &kp SPACE             &trans
             >;
 
