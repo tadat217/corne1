@@ -10,10 +10,6 @@
 #include <dt-bindings/zmk/pointing.h>
 
 / {
-    &mt {
-        tapping-term-ms = <300>;
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -134,4 +130,8 @@
             label = "Gaming";
         };
     };
+};
+
+&mt {
+    tapping-term-ms = <300>;
 };
