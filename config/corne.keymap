@@ -10,6 +10,15 @@
 #include <dt-bindings/zmk/pointing.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        capwords {
+            bindings = <&caps_word>;
+            key-positions = <17 18>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -132,6 +141,4 @@
     };
 };
 
-&mt {
-    tapping-term-ms = <300>;
-};
+&mt { tapping-term-ms = <300>; };
